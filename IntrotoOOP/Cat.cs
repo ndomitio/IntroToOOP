@@ -46,10 +46,20 @@ namespace IntrotoOOP
         }
         public Cat(string name, int age, string furColor) ////methods are verbs
         {
-            this.name = name;
+            this.name = name;//name,age, furcolor are fields that belong to the object cat.  
             this.age = age;
             this.furColor = furColor;
         }
+
+        public Cat (int age, bool isHungry)
+        {
+            this.age = age;
+            this.isHungry = isHungry;
+        }
+
+
+        //methods
+
 
         public void Eat()
         {
@@ -77,5 +87,7 @@ namespace IntrotoOOP
 
 
         }
+
+
     }
 }
